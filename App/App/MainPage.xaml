@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage"
+             Title="FrontPage Demo">
+
+    <StackLayout>
+        <Label Text=" WhatsaApp Business"
+              FontSize="25"
+              FontAttributes="Bold"
+              HorizontalOptions="Center" />
+
+        <Label Text="A simple, secure and reliable way for business to connect with their customers"
+                    FontSize="15"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" />
+
+        <Image Source="https://seeklogo.com/images/W/whatsapp-business-logo-49E09A194C-seeklogo.com.png"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        
+        <Label Text="Tap agree and contintue to accept the Terms of Service. Not a Business? Try WhatsApp Messeger"
+                    FontSize="12"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" />
+        
+        
+        <Button Text=" AGREE AND CONTINUE" 
+                Font="Large"
+                BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Button_Clicked"
+                />
+        
+              
+    </StackLayout>
+    
+</ContentPage>    

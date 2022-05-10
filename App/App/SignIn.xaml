@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.SignIn">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text=" Use 0842455717 for WhatsApp Business"
+              FontSize="25"
+              FontAttributes="Bold"
+              HorizontalOptions="Center" />
+
+            <Label Text="Your chat history and media will automatically be moved to WhatsApp Business"
+                    FontSize="10"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" />
+
+            <Image Source="https://seeklogo.com/images/W/whatsapp-business-logo-49E09A194C-seeklogo.com.png"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+
+            <Button Text="USE 0842455717"
+                    FontSize="12"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" />
+
+            <Button Text="Use Different Number" 
+                Font="Large"
+                BorderWidth="1"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="Button_Clicked"
+                />
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
